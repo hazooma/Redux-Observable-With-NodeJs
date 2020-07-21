@@ -10,5 +10,5 @@
 
 - run server : ` npm start`
 - 
-[link text moreInfo]: http://www.reddit.com
+	[Markdown - Link](#Link)
 
