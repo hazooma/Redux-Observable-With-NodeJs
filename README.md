@@ -10,5 +10,5 @@
 
 - run server : ` npm start`
 - 
-[link more]: http://www.reddit.com
+[link text moreInfo]: http://www.reddit.com
 
