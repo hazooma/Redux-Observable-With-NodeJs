@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { ConnectedRouter } from "connected-react-router";
 import configureStore from "./store";
 import EventForms from "./components/eventForms";
-import SyncValidationForm from "./components/eventForm";
+import EventForm from "./components/eventForm";
 import history from "./history";
 
 let store = configureStore();
@@ -26,7 +26,7 @@ class App extends Component {
             </Route>
 
             <Route exact path="/">
-              <SyncValidationForm />
+              <EventForm />
             </Route>
           </div>
         </ConnectedRouter>
