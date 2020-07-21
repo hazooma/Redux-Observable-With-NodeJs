@@ -34,7 +34,7 @@ For more create-react-app commands refer `package.json`
 ## Code structure
 
 ### Components
-Most of the generic layout is built in `/src/App.js` just as found in the original Create-React-App. The key thing to notice here is that we have included our one and only component to that file: namely `<CounterComponent />` which has been imported from our `/src/components` folder. I recommend you keep all of your components there unless you feel need to move them elsewhere.
+Most of the generic layout is built in `/src/App.js` just as found in the original Create-React-App. The key thing to notice here is that we have included our one and only component to that file: namely `<xxxComponent />` which has been imported from our `/src/components` folder. I recommend you keep all of your components there unless you feel need to move them elsewhere.
 
 ### The Redux Store
 
