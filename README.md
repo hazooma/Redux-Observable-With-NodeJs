@@ -9,6 +9,6 @@
 # FrontEnd 
 
 - run server : ` npm start`
-- 	[MoreInfo](#https://github.com/hazooma/Redux-Observable-With-NodeJs/tree/master/myApp)
+- 	[More!](https://github.com/hazooma/Redux-Observable-With-NodeJs/tree/master/myApp)
 
 
