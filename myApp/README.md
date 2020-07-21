@@ -3,13 +3,7 @@
 # cra-redux-observable
 
 
-This project is an [Create React App ](https://github.com/facebookincubator/create-react-app) boilerplate with integration of Redux, and Redux-observable for quick starting your redux applications with the power of RxJs
 
-
-### [Demo](https://mmajdanski.github.io/cra-redux-observable/)
-
-Before starting with project, please headover to the [Create-React-App](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md
-) documentation.
 
 
 
@@ -19,7 +13,7 @@ Before starting with project, please headover to the [Create-React-App](https://
 
 1. Clone this repo
 
-`https://github.com/mmajdanski/cra-redux-observable.git`
+`https://github.com/hazooma/Redux-Observable-With-NodeJs.git`
 
 2. To run, go to project folder and run
 
@@ -66,10 +60,4 @@ The logic for your reducers (aka Redux logic) will all be contained with `/src/r
 
 [Official RxJS Documentation](https://rxjs-dev.firebaseapp.com/)
 
-## For any updates to the repo, please visit the changelog
 
-Located [here](https://github.com/mmajdanski/cra-redux-observable/blob/master/CHANGELOG.md).
-
-## Something Missing or Incorrect?
-
-File an issue [here](https://github.com/mmajdanski/cra-redux-observable/issues).
