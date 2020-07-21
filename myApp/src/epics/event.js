@@ -27,7 +27,7 @@ export const eventFormEpic = (action$) => {
 };
 
 // action -> action
-export const eventFotmsInit = (action$) => {
+export const eventFormsInit = (action$) => {
   return action$.ofType(INIT).mergeMap(() => {
     return Observable.concat(
       Observable.from(EventApi.getEventsForms())

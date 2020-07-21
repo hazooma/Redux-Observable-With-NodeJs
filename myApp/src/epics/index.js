@@ -1,4 +1,4 @@
 import { combineEpics } from "redux-observable";
-import { eventFormEpic, eventFotmsInit } from "./event";
+import { eventFormEpic, eventFormsInit } from "./event";
 
-export const rootEpic = combineEpics(eventFormEpic, eventFotmsInit);
+export const rootEpic = combineEpics(eventFormEpic, eventFormsInit);

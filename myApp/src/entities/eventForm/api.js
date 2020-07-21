@@ -9,7 +9,6 @@ export default class EventApi {
 
   static getEventsForms() {
     return Api.get("EventForm").map((response) => {
-      console.log(response);
       return response;
     });
   }
