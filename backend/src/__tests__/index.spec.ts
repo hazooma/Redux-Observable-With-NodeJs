@@ -86,22 +86,22 @@ describe("Event Forms Tests", () => {
     });
   });
 
-  // E2E testing should use another testing DB
-  describe("POST /EventForm", () => {
-    it("Successful Request", async () => {
-      const body = {
-        firstName: "Hazem",
-        lastName: "Abdelalim",
-        email: "hazme@gmail.com",
-        eventDate: "2020-12-11T23:00:00.000Z",
-      };
-      const res: any = await request(app).post("/EventForm").send(body);
+  // // E2E testing should use another testing DB
+  // describe("POST /EventForm", () => {
+  //   it("Successful Request", async () => {
+  //     const body = {
+  //       firstName: "Hazem",
+  //       lastName: "Abdelalim",
+  //       email: "hazme@gmail.com",
+  //       eventDate: "2020-12-11T23:00:00.000Z",
+  //     };
+  //     const res: any = await request(app).post("/EventForm").send(body);
 
-      assert.equal(res.statusCode, 200);
-      assert.equal(res.body.firstName, body.firstName);
-      assert.equal(res.body.lastName, body.lastName);
-      assert.equal(res.body.email, body.email);
-      assert.equal(res.body.eventDate, body.eventDate);
-    });
-  });
+  //     assert.equal(res.statusCode, 200);
+  //     assert.equal(res.body.firstName, body.firstName);
+  //     assert.equal(res.body.lastName, body.lastName);
+  //     assert.equal(res.body.email, body.email);
+  //     assert.equal(res.body.eventDate, body.eventDate);
+  //   });
+  // });
 });
