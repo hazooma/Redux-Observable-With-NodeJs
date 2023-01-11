@@ -31,7 +31,7 @@
     "joi": "^14.3.1",
     "joiful": "^2.0.1",
     "jsonwebtoken": "^8.5.1",
-    "knex": "^0.21.1",
+    "knex": "^2.4.0",
     "mongoose": "^5.9.21",
     "mongoose-validator": "^0.2.2",
     "mongoose-validators": "^0.1.0",
